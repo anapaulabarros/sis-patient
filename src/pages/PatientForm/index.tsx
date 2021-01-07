@@ -29,7 +29,7 @@ function PatientForm () {
     
     function handleCreatePatient (e: FormEvent) {
         e.preventDefault();
-        api.post('/classes', {
+        api.post('/patient', {
             name,
             birthday,
             RG,
